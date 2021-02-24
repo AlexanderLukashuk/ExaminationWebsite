@@ -145,6 +145,7 @@ body
         letter-spacing: 0.3px;
         color: $main-color;
         width: 620px;
+        margin-top: 45px;
         //margin-bottom: 40px;
     }
     &__text
@@ -155,16 +156,64 @@ body
         box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.07);
         border-radius: 200px;
     }
-    &__btn
+    &__inputs
     {
-        border-radius: 200px;
-        border: none;
-        background-color: $accent-color;
-        color: #fff;
+        height: 115px;
+        margin-top: 35px;
+        &-btn
+        {
+            border-radius: 200px;
+            width: 162px;
+            height: 69px;
+            border: none;
+            background-color: $accent-color;
+            color: #fff;
+        }
+        &-text
+        {
+            width: 450px;
+            height: 82px;
+            border-radius: 200px;
+            border: none;
+        }
+    }
+    &__oval
+    {
+        width: 440px;
+        height: 34px;
+        background: #FFDDD7;
+        border-radius: 600px / 50px;
+        &-text
+        {
+            font-size: 14px;
+            line-height: 21px;
+            color: $main-color;
+            margin-top: 6px;
+            margin-left: 34px;
+            margin-bottom: 7px;
+        }
+        &-lineOne
+        {
+            margin-left: 28px;
+            margin-top: 13px;
+        }
+        &-lineSecond
+        {
+            margin-left: 21px;
+            margin-top: 13px;
+        }
+        &-lineThird
+        {
+            margin-left: 49px;
+            margin-top: 13px;
+        }
+    }
+    &__ovals
+    {
     }
 }
 
-.input
+input
 {
     /*width: 400px;
     background: #FFFFFF;
