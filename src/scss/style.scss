@@ -2,6 +2,7 @@
 
 $main-color: #041011;
 $accent-color: #007188;
+$pink-color: #FFF3F1;
 
 body
 {
@@ -111,7 +112,7 @@ body
 {
     &-main
     {
-        background-color: #FFF3F1;
+        background-color: $pink-color;
         padding-top: 85px;
         padding-bottom: 400px;
         background-image: url(../img/hello-image.png);
@@ -119,6 +120,18 @@ body
         background-position-x: right;
     }
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    &-started
+    {
+        background-color: #fff;
+        width: 1140px;
+        height: 590px;
+        padding-top: 174x;
+        padding-left: 325px;
+        //padding-bottom: 400px;
+        background-image: url(../img/pink-Background.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
 }
 
 .main
@@ -210,6 +223,109 @@ body
     }
     &__ovals
     {
+    }
+}
+
+/*.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}*/
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-reverse
+    {
+        flex-direction: row-reverse;
+    }
+}
+
+.started
+{
+    &__wrapper
+    {
+        color: #fff;
+        margin-top: 75px;
+        //display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        //color: #fff;
+        /*margin-top: 75px;
+        justify-content: space-around;
+        align-items: flex-start;*/
+    }
+    /*&__item
+    {
+        &__subtitle
+        {
+            //display: inline-block;
+            display: flex;
+            &__element
+            {
+                //display: inline-block;
+                display: flex;
+            }
+        }
+        &__title
+        {
+            //display: inline-block;
+            //display: flex;
+        }
+    }*/
+    &__title-first
+    {
+        margin-top: 115px;
+        align-items: center;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $main-color;
+    }
+    /*.image
+    {
+        //position: relative;
+        background-color: #fff;
+        //width: 1140px;
+        //height: 590px;
+        padding-top: 174x;
+        //padding-bottom: 400px;
+        background-image: url(../img/pink-Background.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }*/
+    &__img
+    {
+        align-items: center;
+    }
+    &__title
+    {
+        //position: absolute;
+	    //top: 200px;
+	    //left: 0;
+	    //width: 100%;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: $main-color;
+    }
+    &__item
+    {
+        width: 240px;
+    }
+    &__descr
+    {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.3px;
+        color: $main-color;
     }
 }
 
