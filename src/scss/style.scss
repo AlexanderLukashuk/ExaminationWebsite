@@ -147,14 +147,15 @@ body
     &-started
     {
         background-color: #fff;
-        width: 1140px;
+        //width: 1140px;
         height: 590px;
         padding-top: 174x;
-        padding-left: 325px;
+        //padding-left: 325px;
         //padding-bottom: 400px;
         background-image: url(../img/pink-Background.png);
         background-repeat: no-repeat;
         background-position-x: center;
+        margin: 0 auto;
     }
     &-insights
     {
@@ -256,10 +257,10 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*&-reverse
+    &-reverse
     {
         flex-direction: row-reverse;
-    }*/
+    }
 }
 
 .started
@@ -296,7 +297,7 @@ body
     }*/
     &__title-first
     {
-        margin-top: 115px;
+        margin-top: 120px;
         align-items: center;
         font-weight: bold;
         font-size: 48px;
@@ -306,7 +307,12 @@ body
     }
     &__img
     {
-        align-items: center;
+        //align-items: center;
+        img
+        {
+            margin: 0 auto;
+            display: block;
+        }
     }
     &__title
     {
@@ -357,6 +363,10 @@ body
         {
             width: 39%;
         }
+        img
+        {
+            margin-right: 150px;
+        }
     }
     &__subtitle
     {
@@ -382,6 +392,7 @@ body
 {
     text-align: left;
     position: relative;
+    padding: 160px;
     &__wrapper
     {
         display: grid;
@@ -395,7 +406,7 @@ body
     }
     &__subtitle
     {
-        margin-top: 162px;
+        //margin-top: 162px;
         align-items: center;
         font-weight: bold;
         font-size: 48px;
@@ -443,7 +454,7 @@ body
     &__btn
     {
         align-items: center;
-        margin-left: 637px;
+        margin-left: 487px;
         margin-top: 60px;
     }
 }
