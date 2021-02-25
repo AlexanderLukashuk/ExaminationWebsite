@@ -3,6 +3,7 @@
 $main-color: #041011;
 $accent-color: #007188;
 $pink-color: #FFF3F1;
+$insight-color: #FC9C25;
 
 body
 {
@@ -83,6 +84,7 @@ body
     }
     &_blue
     {
+        font-weight: normal;
         background-color: $accent-color;
         color: #fff;
         border: none;
@@ -378,6 +380,19 @@ body
 
 .insights
 {
+    text-align: left;
+    position: relative;
+    &__wrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(350px, 1fr));
+        grid-template-rows: 574px;
+        grid-gap: 30px;
+        padding-top: 36px;
+        padding-left: 165px;
+        padding-right: 165px;
+        justify-content: center;
+    }
     &__subtitle
     {
         margin-top: 162px;
@@ -387,6 +402,49 @@ body
         line-height: 56px;
         text-align: center;
         color: $main-color;
+    }
+    &__item
+    {
+        //display: flex;
+        //align-items: center;
+        justify-content: center;
+        //text-align: center;
+        background-color: #fff;
+        border-radius: 30px;
+        &__subtitle
+        {
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: $insight-color;
+            padding-top: 28px;
+            padding-bottom: 13px;
+            padding-left: 30px;
+        }
+        &__descr
+        {
+            font-weight: bold;
+            font-size: 27px;
+            line-height: 33px;
+            color: $main-color;
+            padding-left: 30px;
+            padding-bottom: 66px;
+        }
+        &__footer
+        {
+            font-size: 16px;
+            line-height: 23px;
+            color: #909C9D;
+            padding-left: 30px;
+        }
+    }
+    &__btn
+    {
+        align-items: center;
+        margin-left: 637px;
+        margin-top: 60px;
     }
 }
 
