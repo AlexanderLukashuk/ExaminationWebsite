@@ -236,12 +236,12 @@ body
 .flex
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    &-reverse
+    /*&-reverse
     {
         flex-direction: row-reverse;
-    }
+    }*/
 }
 
 .started
@@ -286,18 +286,6 @@ body
         text-align: center;
         color: $main-color;
     }
-    /*.image
-    {
-        //position: relative;
-        background-color: #fff;
-        //width: 1140px;
-        //height: 590px;
-        padding-top: 174x;
-        //padding-bottom: 400px;
-        background-image: url(../img/pink-Background.png);
-        background-repeat: no-repeat;
-        background-position-x: center;
-    }*/
     &__img
     {
         align-items: center;
@@ -326,6 +314,17 @@ body
         text-align: center;
         letter-spacing: 0.3px;
         color: $main-color;
+        margin: 0 auto;
+    }
+    .promo
+    {
+        position: absolute;
+        right: 188px;
+        bottom: -200%;
+        @media(max-width: 1024px)
+        {
+            right: 2%;
+        }
     }
 }
 
