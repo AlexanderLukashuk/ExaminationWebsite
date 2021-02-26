@@ -477,6 +477,14 @@ body
 
 .signUp
 {
+    &__wrapper
+    {
+        color: #fff;
+        //margin-top: 75px;
+        //display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
     &__subtitle
     {
         font-size: 12px;
@@ -494,34 +502,44 @@ body
         text-align: center;
         color: #FFC8C8;
         margin-top: 4px;
+        margin-bottom: 43px;
     }
     &__inputs
     {
-        &__form
+        margin-bottom: 43px;
+        form
         {
             height: 115px;
             width: 803px;
             margin-top: 43px;
             margin-left: 319px;
-            &-btn
-            {
-                right: 0;
-                border-radius: 200px;
-                width: 152px;
-                height: 69px;
-                border: none;
-                background-color: $accent-color;
-                color: #fff;
-            }
-            &-text
-            {
-                width: 803px;
-                height: 82px;
-                border-radius: 200px;
-                border: none;
-            }
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+        &-btn
+        {
+            right: 0;
+            border-radius: 200px;
+            width: 152px;
+            height: 69px;
+            border: none;
+            background-color: $accent-color;
+            color: #fff;
+        }
+        &-text
+        {
+            width: 100%;
+            //margin: 0 auto;
+            height: 82px;
+            border-radius: 200px;
+            border: none;
+        }
+    }
+    .plane
+    {
+        position: absolute;
+        right: 38px;
     }
 }
 
