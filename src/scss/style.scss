@@ -52,8 +52,6 @@ body
         &__list
         {
             padding-right: 40px;
-            //display: flex;
-            //justify-content: space-between;
             a
             {
                 font-weight: 600;
@@ -99,7 +97,6 @@ body
     font-size: 18px;
     line-height: 22px;
     text-transform: normal;
-    //color: #126F86;
     color: $accent-color;
     border: none;
     background-color: inherit;
@@ -111,23 +108,11 @@ body
     }
 }
 
-/*.subtitle
-{
-    margin-top: 115px;
-    align-items: center;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: center;
-    color: $main-color;
-}*/
-
 .descr
 {
     font-weight: 300;
     font-size: 21px;
     line-height: 29px;
-    //text-align: center;
     letter-spacing: 0.3px;
     color: $main-color;
     margin: 0 auto;
@@ -148,11 +133,8 @@ body
     &-started
     {
         background-color: #fff;
-        //width: 1140px;
         height: 590px;
         padding-top: 174x;
-        //padding-left: 325px;
-        //padding-bottom: 400px;
         background-image: url(../img/pink-Background.png);
         background-repeat: no-repeat;
         background-position-x: center;
@@ -201,7 +183,6 @@ body
         color: $main-color;
         width: 620px;
         margin-top: 45px;
-        //margin-bottom: 40px;
     }
     &__text
     {
@@ -320,7 +301,6 @@ body
     }
     &__img
     {
-        //align-items: center;
         img
         {
             margin: 0 auto;
@@ -329,10 +309,6 @@ body
     }
     &__title
     {
-        //position: absolute;
-	    //top: 200px;
-	    //left: 0;
-	    //width: 100%;
         font-weight: bold;
         font-size: 48px;
         line-height: 56px;
@@ -376,9 +352,6 @@ body
             margin-right: 150px;
             width: 39%;
             margin-bottom: 159px;
-            img
-            {
-            }
         }
     }
     &__subtitle
@@ -423,7 +396,6 @@ body
     }
     &__subtitle
     {
-        //margin-top: 162px;
         align-items: center;
         font-weight: bold;
         font-size: 48px;
@@ -433,10 +405,7 @@ body
     }
     &__item
     {
-        //display: flex;
-        //align-items: center;
         justify-content: center;
-        //text-align: center;
         background-color: #fff;
         border-radius: 30px;
         &__subtitle
@@ -481,8 +450,6 @@ body
     &__wrapper
     {
         color: #fff;
-        //margin-top: 75px;
-        //display: flex;
         justify-content: space-around;
         align-items: flex-start;
     }
@@ -531,7 +498,6 @@ body
         &-text
         {
             width: 100%;
-            //margin: 0 auto;
             height: 82px;
             border-radius: 200px;
             border: none;
@@ -606,19 +572,5 @@ body
             color: $footer-text-color;
         }
     }
-}
-
-.copyright
-{
-}
-
-input
-{
-    /*width: 400px;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.07);
-    border-radius: 30px;*/
 }
 
