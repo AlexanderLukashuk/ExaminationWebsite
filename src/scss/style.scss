@@ -165,6 +165,14 @@ body
     {
         background-color: #fff;
     }
+    &-signUp
+    {
+        background-color: #fff;
+        background-image: url(../img/blue-background.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        margin: 0 auto;
+    }
 }
 
 .main
@@ -366,6 +374,7 @@ body
         {
             margin-right: 150px;
             width: 39%;
+            margin-bottom: 159px;
             img
             {
             }
@@ -463,6 +472,19 @@ body
         align-items: center;
         margin-left: 487px;
         margin-top: 60px;
+    }
+}
+
+.signUp
+{
+    &__subtitle
+    {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #F7FAFF;
     }
 }
 
