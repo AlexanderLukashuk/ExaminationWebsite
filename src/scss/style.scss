@@ -4,6 +4,7 @@ $main-color: #041011;
 $accent-color: #007188;
 $pink-color: #FFF3F1;
 $insight-color: #FC9C25;
+$footer-text-color: #818788;
 
 body
 {
@@ -541,6 +542,74 @@ body
         position: absolute;
         right: 38px;
     }
+}
+
+.footer
+{
+    padding-top: 100px;
+    padding-bottom: 81px;
+    display: flex;
+    justify-content: space-around;
+    &__title
+    {
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    ul
+    {
+        padding-left: 0;
+        margin-top: 22px;
+        margin-bottom: 0;
+    }
+    &__list
+    {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Roboto';
+        margin-bottom: 5px;
+        a
+        {
+            text-decoration: none;
+            color: $footer-text-color;
+        }
+    }
+    &-bottom
+    {
+        //display: flex;
+        //justify-content: space-between;
+        //align-items: center;
+        &__copyright
+        {
+            margin-top: 133px;
+            margin-left: 33%;
+            flex-grow: 1;
+            padding-bottom: 30px;
+            //margin: auto;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 26px;
+            letter-spacing: 0.3px;
+            color: $main-color;
+        }
+        &__privacy
+        {
+            margin-top: 50px;
+            padding-bottom: 80px;
+            font-size: 16px;
+            line-height: 25px;
+            margin-left: 33%;
+            color: $footer-text-color;
+        }
+    }
+}
+
+.copyright
+{
 }
 
 input
